@@ -1,4 +1,6 @@
 # Elevate_Labs_Task_1
+
+````markdown
 # 🐿️ Central Park Squirrel Census Analysis
 
 This project analyzes the 2018 Central Park Squirrel Census dataset using Python and visualizes different attributes of squirrels observed in Central Park, NYC. It utilizes libraries like `pandas`, `seaborn`, and `matplotlib` for data handling and visualization.
@@ -37,3 +39,36 @@ Make sure you have the following Python libraries installed:
 
 ```bash
 pip install pandas seaborn matplotlib
+````
+
+## ▶️ How to Run
+
+1. Clone this repository.
+2. Place the dataset CSV file (`2018_Central_Park_Squirrel_Census_-_Squirrel_Data_20250526.csv`) in the root directory.
+3. Run the Python script using any IDE or:
+
+```bash
+python squirrel_analysis.py
+```
+
+4. Output CSV file (`squirrel_data.csv`) will be generated in the same directory.
+
+## 📄 Output
+
+A new CSV file `squirrel_data.csv` will be created containing the count of squirrels by their primary fur color.
+
+## 🧠 Note
+
+* Ensure that the dataset file name matches exactly.
+* If running on Jupyter Notebook or Google Colab, use `%matplotlib inline` to view plots inline.
+
+## 📬 Contact
+
+For any queries or suggestions, feel free to open an issue or submit a pull request.
+
+---
+
+**Author**: *Om Borase*
+
+
+```
